@@ -868,9 +868,6 @@ main {
 @media (max-width: 767px) {
   .btns-list ul li {
     width: 50%;
-    display: inline-block;
-    vertical-align: top;
-    float: none;
   }
 }
 @media (max-width: 479px) {
@@ -1445,7 +1442,7 @@ main {
 }
 @media (max-width: 767px) {
   .donation .description {
-    padding: 235px 10px 40px;
+    padding: 235px 0 40px;
     text-align: center;
   }
 }
@@ -1505,6 +1502,11 @@ main {
   line-height: 24px;
   letter-spacing: 0.42px;
 }
+@media (max-width: 1023px) {
+  .footer {
+    line-height: 18px;
+  }
+}
 .footer a {
   color: #fff;
 }
@@ -1521,7 +1523,7 @@ main {
   display: -ms-flexbox;
   display: flex;
 }
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .address-box {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
@@ -1531,7 +1533,7 @@ main {
 .map-box {
   width: 44%;
 }
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .map-box {
     width: 100%;
     height: 216px;
@@ -1548,29 +1550,69 @@ main {
   padding: 66px 0 42px 30px;
   width: 56%;
 }
+@media (max-width: 1023px) {
+  .address {
+    width: 100%;
+    padding: 64px 15px 45px;
+    text-align: center;
+  }
+}
 .address .address-holder {
   max-width: 675px;
   padding: 0 40px 0 0;
+  position: relative;
 }
-.address .title-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 0 28px;
+@media (max-width: 1023px) {
+  .address .address-holder {
+    max-width: 100%;
+    padding: 0;
+  }
 }
 .address .title {
   display: block;
   font-weight: 900;
   font-size: 22px;
-  line-height: 1.5;
+  line-height: 36px;
   letter-spacing: 2.2px;
   text-transform: uppercase;
+  margin: 0 0 28px;
+}
+.address .title mark {
+  color: #fff;
+}
+@media (max-width: 1023px) {
+  .address .title mark {
+    display: block;
+    margin: 0 0 42px;
+  }
 }
 .address .social-networks {
-  margin-top: 5px;
+  position: absolute;
+  top: 5px;
+  right: 40px;
+}
+@media (max-width: 1023px) {
+  .address .social-networks {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 58px;
+  }
+}
+@media (max-width: 1023px) {
+  .address .social-networks ul {
+    font-size: 34px;
+    margin: 0 0 0 -24px;
+  }
+}
+@media (max-width: 1023px) {
+  .address .social-networks ul li {
+    margin: 0 0 0 24px;
+  }
 }
 .address .social-networks a {
   color: #acacac;
@@ -1584,12 +1626,27 @@ main {
   list-style: none;
   margin: 0 0 30px;
 }
+@media (max-width: 1023px) {
+  .address .address-list {
+    margin: 0 0 10px;
+  }
+}
 .address .address-list li {
   position: relative;
   padding: 0 0 18px 31px;
 }
+@media (max-width: 1023px) {
+  .address .address-list li {
+    padding: 0 0 50px;
+  }
+}
 .address .address-list li li {
   padding: 0;
+}
+@media (max-width: 1023px) {
+  .address .address-list li li {
+    padding: 0 0 12px;
+  }
 }
 .address .address-list ul {
   margin: 0;
@@ -1603,9 +1660,24 @@ main {
   top: 1px;
   font-size: 21px;
 }
+@media (max-width: 1023px) {
+  .address .address-list .icon-location,
+  .address .address-list .icon-phone {
+    position: static;
+    display: block;
+    font-size: 38px;
+    margin: 0 0 15px;
+  }
+}
 .address .address-list .icon-phone {
   top: 3px;
   font-size: 19px;
+}
+@media (max-width: 1023px) {
+  .address .address-list .icon-phone {
+    font-size: 33px;
+    margin: 0 0 19px;
+  }
 }
 .address address {
   font-style: normal;
@@ -1616,6 +1688,21 @@ main {
 }
 .address address a:hover {
   text-decoration: underline;
+}
+@media (max-width: 1023px) {
+  .address address .city {
+    display: block;
+  }
+}
+@media (max-width: 1023px) {
+  .address .btns-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .copy {
