@@ -1549,7 +1549,7 @@ main {
   text-decoration: none;
 }
 .footer a.tel:hover {
-  text-decoration: underline;
+  color: #acacac;
 }
 
 .address-box {
@@ -1738,7 +1738,7 @@ main {
   text-decoration: none;
 }
 .address address a:hover {
-  text-decoration: underline;
+  color: #acacac;
 }
 @media (max-width: 1023px) {
   .address address .city {
@@ -1785,6 +1785,12 @@ main {
 .copy ul li:before {
   content: "|";
   padding: 0 4px 0 0;
+}
+.copy a {
+  text-decoration: none;
+}
+.copy a:hover {
+  color: #acacac;
 }
 
 .news {

@@ -916,7 +916,7 @@ main{
 		&.tel{
 			text-decoration: none;
 			&:hover{
-				text-decoration: underline;
+				color: $light-gray-03;
 			}
 		}
 	}
@@ -1070,7 +1070,7 @@ main{
 		a{
 			text-decoration: none;
 			&:hover{
-				text-decoration: underline;
+				color: $light-gray-03;
 			}
 		}
 		.city{
@@ -1114,6 +1114,12 @@ main{
 				content: '|';
 				padding: 0 4px 0 0;
 			}
+		}
+	}
+	a{
+		text-decoration: none;
+		&:hover{
+			color: $light-gray-03;
 		}
 	}
 }
