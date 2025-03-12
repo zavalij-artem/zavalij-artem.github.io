@@ -38,7 +38,6 @@ if (aRandom < bRandom && actionSymbol === '-'){
 btnCheck.onclick = function(){
 	const num1 = Number(a.textContent)
 	const num2 = Number(b.textContent)
-	
 	if (actionSymbol == '+'){
 		rightAnswer = num1 + num2
 	} else if (actionSymbol == '-'){
@@ -71,26 +70,36 @@ btnRefresh.onclick = function(){
 	location.reload();
 }
 
-/* document.addEventListener('keydown', event => {
+document.addEventListener('keydown', event => {
 	if(event.code === 'Enter' | event.code === 'NumpadEnter') {
 		const num1 = Number(a.textContent)
-		const num2 = Number(b.textContent)
-		const rightAnswer = num1 + num2
-		const userAnswer = inputAnswer.value
-		if(userAnswer == rightAnswer){
-			resultElement.textContent = 'Вірна відповідь!'
-			resultElement.classList.add('text-success')
-			resultElement.classList.remove('text-danger')
-		} else if(userAnswer == ''){
-			resultElement.textContent = 'Введи, будь-ласка, відповідь!'
-			resultElement.classList.add('text-danger')
-			resultElement.classList.remove('text-success')
-		}
-			else {
-			resultElement.textContent = 'Перерахуй, будь-ласка!'
-			resultElement.classList.add('text-danger')
-			resultElement.classList.remove('text-success')
-		}
+	const num2 = Number(b.textContent)
+	if (actionSymbol == '+'){
+		rightAnswer = num1 + num2
+	} else if (actionSymbol == '-'){
+		rightAnswer = num1 - num2
 	}
-}) */
+	const userAnswer = inputAnswer.value
+	if(userAnswer == rightAnswer){
+		resultElement.innerHTML = 
+`<span class="d-block">Вірно!</span>
+<span class="d-block fw-bold">${num1} ${actionSymbol} ${num2} = ${rightAnswer}</span>
+`
+		resultElement.classList.add('text-success')
+		resultElement.classList.remove('text-danger')
+		btnRefresh.classList.remove('invisible')
+	} else if(userAnswer == ''){
+		resultElement.textContent = 'Введи, будь-ласка, відповідь!'
+		resultElement.classList.add('text-danger')
+		resultElement.classList.remove('text-success')
+		btnRefresh.classList.add('invisible')
+	}
+	 else {
+		resultElement.textContent = 'Перерахуй, будь-ласка!'
+		resultElement.classList.add('text-danger')
+		resultElement.classList.remove('text-success')
+		btnRefresh.classList.add('invisible')
+	}
+	}
+})
 
