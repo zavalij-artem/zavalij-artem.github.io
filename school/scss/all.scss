@@ -1,0 +1,9 @@
+@charset 'utf-8';
+
+@import 'utils/variables';
+@import 'utils/helpers';
+@import 'vendors/include-media';
+/*@import 'base/base'; */
+#wrapper{
+	max-width: 600px;
+}
