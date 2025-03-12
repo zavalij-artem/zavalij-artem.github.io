@@ -14,11 +14,37 @@ btnCheck.onclick = function(){
 		resultElement.textContent = 'Вірна відповідь!'
 		resultElement.classList.add('text-success')
 		resultElement.classList.remove('text-danger')
-	} else {
+	} else if(userAnswer == ''){
+		resultElement.textContent = 'Введи, будь-ласка, відповідь!'
+		resultElement.classList.add('text-danger')
+		resultElement.classList.remove('text-success')
+	}
+	 else {
 		resultElement.textContent = 'Перерахуй, будь-ласка!'
 		resultElement.classList.add('text-danger')
 		resultElement.classList.remove('text-success')
 	}
 }
 
-
+document.addEventListener('keydown', event => {
+	if(event.code === 'Enter') {
+		const num1 = Number(a.textContent)
+		const num2 = Number(b.textContent)
+		const rightAnswer = num1 + num2
+		const userAnswer = inputAnswer.value
+		if(userAnswer == rightAnswer){
+			resultElement.textContent = 'Вірна відповідь!'
+			resultElement.classList.add('text-success')
+			resultElement.classList.remove('text-danger')
+		} else if(userAnswer == ''){
+			resultElement.textContent = 'Введи, будь-ласка, відповідь!'
+			resultElement.classList.add('text-danger')
+			resultElement.classList.remove('text-success')
+		}
+			else {
+			resultElement.textContent = 'Перерахуй, будь-ласка!'
+			resultElement.classList.add('text-danger')
+			resultElement.classList.remove('text-success')
+		}
+	}
+})
