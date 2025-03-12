@@ -5,10 +5,45 @@ const inputAnswer = document.getElementById('answer')
 const btnCheck = document.getElementById('check')
 const resultElement = document.getElementById('result')
 
+function getRandomIntInclusive(min, max) {
+	const minCeiled = Math.ceil(min);
+	const maxFloored = Math.floor(max);
+	return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled);
+}
+
+let aMin = 1
+let aMax = 10
+
+let bMin = 1
+let bMax = 10
+
+const aRandom = getRandomIntInclusive(aMin, aMax)
+const bRandom = getRandomIntInclusive(bMin, bMax)
+
+const arrayAction = ['+', '-']
+const randomAction = Math.round(Math.random() * (arrayAction.length - 1))
+
+a.textContent = aRandom
+b.textContent = bRandom
+action.textContent = arrayAction[randomAction]
+let actionSymbol = action.textContent
+console.log(actionSymbol)
+
+if (aRandom < bRandom && actionSymbol === '-'){
+	console.log('actionSymbol minus overwrited to plus')
+	actionSymbol = '+'
+	action.textContent = '+'
+}
+
 btnCheck.onclick = function(){
 	const num1 = Number(a.textContent)
 	const num2 = Number(b.textContent)
-	const rightAnswer = num1 + num2
+	
+	if (actionSymbol == '+'){
+		rightAnswer = num1 + num2
+	} else if (actionSymbol == '-'){
+		rightAnswer = num1 - num2
+	}
 	const userAnswer = inputAnswer.value
 	if(userAnswer == rightAnswer){
 		resultElement.textContent = 'Вірна відповідь!'
@@ -26,8 +61,8 @@ btnCheck.onclick = function(){
 	}
 }
 
-document.addEventListener('keydown', event => {
-	if(event.code === 'Enter') {
+/* document.addEventListener('keydown', event => {
+	if(event.code === 'Enter' | event.code === 'NumpadEnter') {
 		const num1 = Number(a.textContent)
 		const num2 = Number(b.textContent)
 		const rightAnswer = num1 + num2
@@ -47,4 +82,5 @@ document.addEventListener('keydown', event => {
 			resultElement.classList.remove('text-success')
 		}
 	}
-})
+}) */
+

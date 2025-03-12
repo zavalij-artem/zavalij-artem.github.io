@@ -1,4 +1,7 @@
 /*@import 'base/base'; */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 #wrapper {
-  max-width: 600px;
+  max-width: 400px;
 }
