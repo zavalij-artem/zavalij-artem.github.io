@@ -3,6 +3,7 @@ const b = document.getElementById('number-b')
 let action = document.getElementById('action')
 const inputAnswer = document.getElementById('answer')
 const btnCheck = document.getElementById('check')
+const btnRefresh = document.getElementById('refresh')
 const resultElement = document.getElementById('result')
 
 function getRandomIntInclusive(min, max) {
@@ -27,7 +28,6 @@ a.textContent = aRandom
 b.textContent = bRandom
 action.textContent = arrayAction[randomAction]
 let actionSymbol = action.textContent
-console.log(actionSymbol)
 
 if (aRandom < bRandom && actionSymbol === '-'){
 	console.log('actionSymbol minus overwrited to plus')
@@ -46,19 +46,29 @@ btnCheck.onclick = function(){
 	}
 	const userAnswer = inputAnswer.value
 	if(userAnswer == rightAnswer){
-		resultElement.textContent = 'Вірна відповідь!'
+		resultElement.innerHTML = 
+`<span class="d-block">Вірно!</span>
+<span class="d-block fw-bold">${num1} ${actionSymbol} ${num2} = ${rightAnswer}</span>
+`
 		resultElement.classList.add('text-success')
 		resultElement.classList.remove('text-danger')
+		btnRefresh.classList.remove('invisible')
 	} else if(userAnswer == ''){
 		resultElement.textContent = 'Введи, будь-ласка, відповідь!'
 		resultElement.classList.add('text-danger')
 		resultElement.classList.remove('text-success')
+		btnRefresh.classList.add('invisible')
 	}
 	 else {
 		resultElement.textContent = 'Перерахуй, будь-ласка!'
 		resultElement.classList.add('text-danger')
 		resultElement.classList.remove('text-success')
+		btnRefresh.classList.add('invisible')
 	}
+}
+
+btnRefresh.onclick = function(){
+	location.reload();
 }
 
 /* document.addEventListener('keydown', event => {

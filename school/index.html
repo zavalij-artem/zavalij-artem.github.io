@@ -12,29 +12,34 @@
 </head>
 <body class="bg-gray">
 	<div id="wrapper" class="mx-auto">
-		<main class="p-4">
+		<main class="p-2 pt-3">
 			<div class="container">
-				<h1 class="text-center mb-3">Тестові вирази</h1>
+				<h1 class="text-center mb-3">Додавання та віднімання</h1>
 				<div id="expressions">
-					<div class="row align-items-center mb-2">
-						<div class="col text-center">
+					<div class="row align-items-center mb-3">
+						<div class="col text-center fs-4 pe-0">
 							<span id="number-a">&nbsp;</span>
 							<span id="action">&nbsp;</span>
 							<span id="number-b">&nbsp;</span>
 							<span>=</span>
 						</div>
-						<div class="col">
-							<input id="answer" class="form-control text-center" type="number" placeholder="Відповідь">
-						</div>
-					</div>
-					<div class="row align-items-center mb-2">
-						<div class="col text-center">
-							<button id="check" class="btn btn-outline-info w-50">Перевірити</button>
+						<div class="col col-7">
+							<input id="answer" class="form-control text-center fs-4 w-100" type="number" placeholder="Відповідь">
 						</div>
 					</div>
 					<div class="row align-items-center mb-3">
-						<div class="col text-center fs-4">
+						<div class="col text-center">
+							<button id="check" class="btn btn-info">Перевірити</button>
+						</div>
+					</div>
+					<div class="row align-items-center mb-3">
+						<div class="col text-center fs-3">
 							<span id="result">&nbsp;</span>
+						</div>
+					</div>
+					<div class="row align-items-center mb-3">
+						<div class="col text-center">
+							<button id="refresh" class="btn btn-success invisible">Новий приклад</button>
 						</div>
 					</div>
 				</div>
