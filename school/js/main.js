@@ -31,14 +31,15 @@ function generatedValues(){
 	// random plus/minus
 	const arrayAction = ['+', '-']
 	const randomAction = Math.round(Math.random() * (arrayAction.length - 1))
-	actionSymbol = arrayAction[randomAction]
-	if (aNumber.innerText < bNumber.innerText && actionSymbol === '-'){
-		console.log('actionSymbol Minus overwrited to Plus')
-		actionSymbol = '+'
-	}
+	let actionSymbol = arrayAction[randomAction]
 	action.innerText = actionSymbol
+	if (aRandom < bRandom && action.innerText === '-'){
+		// console.log('actionSymbol Minus overwrited to Plus')
+		actionSymbol = '+'
+		action.innerText = actionSymbol
+	}
+	
 	actionResult.innerText = actionSymbol
-	let userAnswer = inputAnswer.value
 	let rightAnswer = aRandom + bRandom
 	if (actionSymbol === '-'){
 		rightAnswer = aRandom - bRandom
