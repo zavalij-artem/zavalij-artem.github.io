@@ -3,7 +3,30 @@
 @import 'utils/variables';
 @import 'utils/helpers';
 @import 'vendors/include-media';
-/*@import 'base/base'; */
+@import 'base/base';
+
 #wrapper{
-	max-width: 600px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+main{
+	padding: $container-side-padding 0;
+}
+.expression{
+	font-size: 24px;
+	text-align: center;
+	.form-control{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	button{
+		font-size: 20px;
+	}
+	.col-1{
+		width: 40%;
+	}
+	.col-2{
+		width: 60%;
+	}
 }

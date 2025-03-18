@@ -7,18 +7,20 @@ $breakpoints: (
 );
 
 // Colors
-$text-color: #111;
+$text-color: #282929;
 $border-color: #ccc;
 $link-color: #f00;
-$heading-color: #f0f;
+$heading-color: #000;
 $form-text-color: #000;
 $input-border-color: #000;
-$border-color: #000;
-$body-background-color: #fff;
+$border-color: #5f6e75;
+$body-background-color: #cce9fa;
+$color-error: #dc3545;
+$color-success: #1a8854;
 
 // Fonts
 $font-family: Arial, Helvetica, sans-serif;
-$font-size: 15px;
+$font-size: 14px;
 $line-height: 1.2;
 $font-size-h1: 200%;
 $font-size-h2: 170%;
@@ -28,11 +30,11 @@ $font-size-h5: 130%;
 $font-size-h6: 120%;
 
 $vertical-rhythm: ($line-height * 1em);
-$text-interval: 15px;
+$text-interval: 20px;
 
 $min-width: 320px;
 
 $container-max-width: 1920px;
-$container-side-padding: 10px;
+$container-side-padding: 20px;
 
-$base-transition-duration: .3s;
+$base-transition-duration: .2s;
