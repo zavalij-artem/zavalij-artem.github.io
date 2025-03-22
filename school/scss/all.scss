@@ -36,5 +36,9 @@ main{
 		display: block;
 		cursor: pointer;
 		margin: 0 10px;
+		&.disabled{
+			cursor: default;
+			color: #206eb6;
+		}
 	}
 }
