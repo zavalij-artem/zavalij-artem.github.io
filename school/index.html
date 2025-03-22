@@ -14,6 +14,16 @@
 			<div class="container">
 				<h1>Додавання та віднімання</h1>
 				<div class="expression">
+					<div class="row d-flex align-items-center justify-content-center text-holder">
+						<label>
+							<input type="radio" name="max-result" checked="checked" value="radio-20">
+							<span class="label-text">в межах <strong>20</strong></span>
+						</label>
+						<label class="invisible">
+							<input type="radio" name="max-result" value="radio-100">
+							<span class="label-text">в межах <strong>100</strong></span>
+						</label>
+					</div>
 					<div class="row d-flex align-items-center justify-content-between">
 						<div class="col col-1">
 							<span id="number-a">&nbsp;</span>
@@ -41,8 +51,8 @@
 							</span>
 						</span>
 					</div>
-					<div class="row">
-						<button id="create" class="btn btn-create invisible">Новий приклад</button>
+					<div id="create-holder" class="row">
+						<span>&nbsp;</span>
 					</div>
 				</div>
 			</div>

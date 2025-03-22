@@ -2,7 +2,7 @@ let aNumber = document.getElementById('number-a')
 let action = document.getElementById('action')
 let bNumber = document.getElementById('number-b')
 let checkBtn = document.getElementById('check')
-let createBtn = document.getElementById('create')
+let createBtnHolder = document.getElementById('create-holder')
 let inputAnswer = document.getElementById('answer')
 let aNumberResult = document.getElementById('number-a-result')
 let actionResult = document.getElementById('action-result')
@@ -52,15 +52,23 @@ function checkAnswer(){
 	if (inputAnswer.value == ''){
 		resultError.innerText = `Введи, будь-ласка, відповідь!`
 		resultSuccess.classList.add('invisible')
-		createBtn.classList.add('invisible')
+		createBtnHolder.innerHTML = `<span>&nbsp;</span>`
 	} else if (inputAnswer.value == rightAnswerResult.innerHTML){
 		resultSuccess.classList.remove('invisible')
-		createBtn.classList.remove('invisible')
+		createBtnHolder.innerHTML = `<button id="create" class="btn btn-create">Новий приклад</button>`
+		let createBtn = document.getElementById('create')
+		createBtn.onclick = function(event){
+			resultSuccess.classList.add('invisible')
+			createBtn.classList.add('invisible')
+			resultError.innerText = ''
+			inputAnswer.value = ''
+			generatedValues()
+		}
 		resultError.innerText = ''
 		
 	} else {
 		resultSuccess.classList.add('invisible')
-		createBtn.classList.add('invisible')
+		createBtnHolder.innerHTML = `<span>&nbsp;</span>`
 		resultError.innerText = `Перерахуй, будь-ласка!`
 	}
 }
@@ -75,10 +83,3 @@ document.addEventListener('keydown', event => {
 	}
 })
 
-createBtn.onclick = function(event){
-	resultSuccess.classList.add('invisible')
-	createBtn.classList.add('invisible')
-	resultError.innerText = ''
-	inputAnswer.value = ''
-	generatedValues()
-}

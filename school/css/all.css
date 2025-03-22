@@ -452,3 +452,11 @@ main {
 .expression .col-2 {
   width: 60%;
 }
+.expression .text-holder {
+  font-size: 18px;
+}
+.expression label {
+  display: block;
+  cursor: pointer;
+  margin: 0 10px;
+}
