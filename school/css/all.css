@@ -30,13 +30,17 @@ hgroup, menu, nav, section, summary, time, mark, audio, video {
   background: none;
 }
 
+mark {
+  font-weight: bold;
+}
+
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
   display: block;
 }
 
 body {
   color: #282929;
-  font: 14px/1.2 Arial, Helvetica, sans-serif;
+  font: 16px/1.2 Arial, Helvetica, sans-serif;
   background: #cce9fa;
   overflow-y: scroll;
   min-width: 320px;
@@ -425,6 +429,16 @@ pre {
   border-color: #19830e;
 }
 
+.text-blue {
+  color: #206eb6;
+}
+.text-green {
+  color: #2b9a1f;
+}
+.text-red {
+  color: #c60d0d;
+}
+
 #wrapper {
   max-width: 400px;
   margin: 0 auto;
@@ -455,12 +469,65 @@ main {
 .expression .text-holder {
   font-size: 18px;
 }
-.expression label {
+.expression label.radio-label {
   display: block;
   cursor: pointer;
   margin: 0 10px;
+  position: relative;
+  padding: 0 0 0 20px;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
-.expression label.disabled {
+.expression label.radio-label:before, .expression label.radio-label:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.expression label.radio-label:before {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #2c519d;
+  margin: -7px 0 0;
+  background: #fff;
+}
+.expression label.radio-label:after {
+  width: 8px;
+  height: 8px;
+  background: #2c519d;
+  margin: -4px 0 0 3px;
+  opacity: 0;
+}
+.expression label.radio-label input[type=radio] {
+  position: absolute;
+  top: auto;
+  left: -9999px;
+}
+.expression label.radio-label.disabled {
   cursor: default;
-  color: #206eb6;
+  color: #2c519d;
+}
+.expression label.radio-label.disabled:before {
+  border-color: #2c519d;
+}
+.expression label.radio-label.disabled:after {
+  opacity: 1;
+}
+.expression label.radio-label .label-text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info-list {
+  list-style: none;
+  padding-left: 0;
+}
+.info-list li {
+  padding: 0 0 20px;
+}
+.info-list p {
+  margin: 0;
 }

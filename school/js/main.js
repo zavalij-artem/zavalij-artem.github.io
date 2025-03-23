@@ -52,6 +52,7 @@ function generatedValues(){
 	const randomAction = Math.round(Math.random() * (arrayAction.length - 1))
 	let actionSymbol = arrayAction[randomAction]
 	action.innerText = actionSymbol
+
 	if (aRandom < bRandom && action.innerText === '-'){
 		// console.log('actionSymbol Minus overwrited to Plus')
 		actionSymbol = '+'
@@ -65,7 +66,10 @@ function generatedValues(){
 	}
 	rightAnswerResult.innerHTML = rightAnswer
 }
-generatedValues()
+
+do{
+	generatedValues()
+} while (rightAnswerResult.innerHTML > 100)
 
 function checkAnswer(){
 	if (inputAnswer.value == ''){
@@ -81,7 +85,9 @@ function checkAnswer(){
 			createBtn.classList.add('invisible')
 			resultError.innerText = ''
 			inputAnswer.value = ''
-			generatedValues()
+			do{
+				generatedValues()
+			} while (rightAnswerResult.innerHTML > 100)
 		}
 		resultError.innerText = ''
 		
@@ -99,8 +105,9 @@ maxResult1.onclick = function(event){
 	maxResult2.removeAttribute('disabled', 'disabled')
 	maxResult1.setAttribute('checked', 'checked')
 	maxResult2.removeAttribute('checked', 'checked')
-	console.log('maxResult1 clicked')
-	generatedValues()
+	do{
+		generatedValues()
+	} while (rightAnswerResult.innerHTML > 100)
 	inputAnswer.value = ''
 	resultError.innerText = ''
 	resultSuccess.classList.add('invisible')
@@ -113,8 +120,9 @@ maxResult2.onclick = function(event){
 	maxResult1.removeAttribute('disabled', 'disabled')
 	maxResult2.setAttribute('checked', 'checked')
 	maxResult1.removeAttribute('checked', 'checked')
-	console.log('maxResult2 clicked')
-	generatedValues()
+	do{
+		generatedValues()
+	} while (rightAnswerResult.innerHTML > 100)
 	inputAnswer.value = ''
 	resultError.innerText = ''
 	resultSuccess.classList.add('invisible')

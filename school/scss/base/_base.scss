@@ -21,6 +21,9 @@ hgroup, menu, nav, section, summary, time, mark, audio,video{
 	border: 0;
 	background: none;
 }
+mark{
+	font-weight: bold;
+}
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
 	display: block;
 }
@@ -238,4 +241,15 @@ pre{
 .btn-create{
 	background-color: #2b9a1f;
 	border-color: #19830e;
+}
+.text{
+	&-blue{
+		color: #206eb6;
+	}
+	&-green{
+		color: #2b9a1f;
+	}
+	&-red{
+		color: #c60d0d;
+	}
 }

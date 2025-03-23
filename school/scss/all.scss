@@ -33,12 +33,67 @@ main{
 		font-size: 18px;
 	}
 	label{
-		display: block;
-		cursor: pointer;
-		margin: 0 10px;
-		&.disabled{
-			cursor: default;
-			color: #206eb6;
+		&.radio-label{
+			display: block;
+			cursor: pointer;
+			margin: 0 10px;
+			position: relative;
+			padding: 0 0 0 20px;
+			transition: color $base-transition-duration ease;
+			&:before,
+			&:after{
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 0;
+				border-radius: 50%;
+				transition: all $base-transition-duration ease;
+			}
+			&:before{
+				width: 14px;
+				height: 14px;
+				border: 1px solid #2c519d;
+				margin: -7px 0 0;
+				background: #fff;
+			}
+			&:after{
+				width: 8px;
+				height: 8px;
+				background: #2c519d;
+				margin: -4px 0 0 3px;
+				opacity: 0;
+			}
+			input{
+				&[type="radio"]{
+					position: absolute;
+					top: auto;
+					left: -9999px;
+				}
+			}
+			&.disabled{
+				cursor: default;
+				color: #2c519d;
+				&:before{
+					border-color: #2c519d;
+				}
+				&:after{
+					opacity: 1;
+				}
+			}
+			.label-text{
+				display: inline-block;
+				vertical-align: top;
+			}
 		}
+	}
+}
+.info-list{
+	list-style: none;
+	padding-left: 0;
+	li{
+		padding: 0 0 $text-interval;
+	}
+	p{
+		margin: 0;
 	}
 }
