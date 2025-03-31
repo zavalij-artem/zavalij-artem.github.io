@@ -1,0 +1,40 @@
+// Breakpoints
+$breakpoints: (
+	'phone':            480px,
+	'tablet':           768px,
+	'desktop':          1024px,
+	'widescreen':       1200px
+);
+
+// Colors
+$text-color: #282929;
+$border-color: #ccc;
+$link-color: #f00;
+$heading-color: #000;
+$form-text-color: #000;
+$input-border-color: #000;
+$border-color: #5f6e75;
+$body-background-color: #cce9fa;
+$color-error: #dc3545;
+$color-success: #1a8854;
+
+// Fonts
+$font-family: Arial, Helvetica, sans-serif;
+$font-size: 16px;
+$line-height: 1.2;
+$font-size-h1: 200%;
+$font-size-h2: 170%;
+$font-size-h3: 150%;
+$font-size-h4: 140%;
+$font-size-h5: 130%;
+$font-size-h6: 120%;
+
+$vertical-rhythm: ($line-height * 1em);
+$text-interval: 20px;
+
+$min-width: 320px;
+
+$container-max-width: 1920px;
+$container-side-padding: 20px;
+
+$base-transition-duration: .2s;
