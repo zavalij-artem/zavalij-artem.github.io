@@ -52,3 +52,9 @@
   border-radius: 10px 0 0 10px;
   background: var(--bs-red);
 }
+
+@media (max-width: 425px) {
+  .btn {
+    min-width: 75%;
+  }
+}

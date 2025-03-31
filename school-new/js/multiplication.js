@@ -38,7 +38,7 @@ createExpression()
 function createBtnCheck(){
 	btnCheckHolder.innerHTML = 
 `<div class="row ps-3 pe-3 mb-3">
-	<button id="btn-check" type="button" class="btn btn-primary w-50 m-auto">Перевірити</button>
+	<button id="btn-check" type="button" class="btn btn-primary m-auto fs-5 w-50">Перевірити</button>
 </div>`
 }
 createBtnCheck()
@@ -51,7 +51,7 @@ function getRandomNumber (min, max){
 function createBtnNew(){
 	btnNewHolder.innerHTML =
 `<div class="row ps-3 pe-3 mb-3">
-	<button id="btn-new" type="button" class="btn btn-success w-50 m-auto">Новий приклад</button>
+	<button id="btn-new" type="button" class="btn btn-success m-auto fs-5 w-50">Новий приклад</button>
 </div>`
 }
 createBtnNew()
