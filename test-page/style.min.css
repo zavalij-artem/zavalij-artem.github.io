@@ -13206,3 +13206,10 @@ a.ui-button:active {
     height: 6px;
     margin-top: 3px;
 }
+.popup-holder{
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    overflow: hidden;
+    display: none;
+}
