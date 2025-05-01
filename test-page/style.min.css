@@ -812,7 +812,6 @@ body.fancybox-iosfix {
     -webkit-tap-highlight-color: transparent;
     backface-visibility: hidden;
     transform: translateZ(0);
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
 }
 .fancybox-bg,
 .fancybox-inner,
@@ -1502,10 +1501,8 @@ svg path {
 }
 body {
     background: #fff;
-    font-family: Montserrat, serif;
     color: var(--black);
-    font-size: 14px;
-    line-height: normal;
+    font: 14px Arial, Helvetica Neue, Helvetica, sans-serif;
     overflow-x: hidden;
     min-width: 320px;
     padding: 0 35px;
@@ -2860,7 +2857,6 @@ header .pull.open svg {
     background-size: 100% !important;
 }
 #faq .title {
-    font-family: Montserrat, serif;
     padding: 0 70px 0 35px;
     height: 60px;
     font-weight: 700;
@@ -2900,7 +2896,6 @@ header .pull.open svg {
     color: var(--orange);
 }
 #faq .answer {
-    font-family: Montserrat, serif;
     font-size: 14px;
     line-height: 20px;
     color: #787878;
@@ -5683,7 +5678,6 @@ footer .socials a:hover svg path {
     border-radius: 25px !important;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.02), 0 2px 4px rgba(0, 0, 0, 0.08);
     background: #fff !important;
-    font-family: Montserrat, serif !important;
 }
 .box__modal.box__modal__text {
     width: 1110px !important;
@@ -7419,7 +7413,6 @@ button,
 input,
 select,
 textarea {
-    font-family: Montserrat, serif;
     -webkit-appearance: none;
 }
 #page__account {
@@ -8281,7 +8274,6 @@ textarea {
     overflow: hidden;
     position: absolute;
     background: url(https://test16.pridefix.com/assets/images/colorpicker_background.png);
-    font-family: Arial, Helvetica, sans-serif;
     display: none;
 }
 .colorpicker_color {
@@ -8348,7 +8340,6 @@ textarea {
     border: 1px solid transparent;
     position: absolute;
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #898989;
     top: 4px;
     right: 11px;
@@ -9833,9 +9824,6 @@ input.ui-button::-moz-focus-inner {
 body .ui-tooltip {
     border-width: 2px;
 }
-.ui-widget {
-    font-family: Arial, Helvetica, sans-serif;
-}
 .ui-widget,
 .ui-widget .ui-widget {
     font-size: 1em;
@@ -9844,7 +9832,6 @@ body .ui-tooltip {
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 .ui-widget.ui-widget-content {

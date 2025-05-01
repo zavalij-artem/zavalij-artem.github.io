@@ -901,7 +901,7 @@
     }
     #promo {
         padding: 35px 0 25px;
-        background: url(../images/bgpromomobile.png) 50% 50% no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/bgpromomobile.png) 50% 50% no-repeat;
         background-size: cover;
     }
     #promo .text h1 {
@@ -1889,7 +1889,7 @@
         transition: all 0.2s;
         height: 12px;
         content: "";
-        background: url(../images/arrd.svg) 50% 50% no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
         background-size: 100%;
     }
     footer .col__hd .title.open:after {
@@ -2109,7 +2109,7 @@
         border: 1px solid #ebebeb;
         width: 100%;
         padding: 0 20px 0 15px;
-        background: url(../images/arrd.svg) calc(100% - 15px) 50% no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/arrd.svg) calc(100% - 15px) 50% no-repeat;
         background-size: 15px;
     }
     #page__account .account__navigation .curent__item svg {
@@ -2253,7 +2253,7 @@
         order: 0;
         width: 100%;
         padding: 12px 0;
-        background: url(../images/bgbreadcrumbs.png) 50% 0 no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/bgbreadcrumbs.png) 50% 0 no-repeat;
         background-size: cover;
     }
     #page__main__title h1 {
@@ -2588,6 +2588,6 @@
         background-size: 5652px 15px;
     }
     .iti__flag {
-        background-image: url(../images/flags@2x.png);
+        background-image: url(https://test16.pridefix.com/assets/images/flags@2x.png);
     }
 }
