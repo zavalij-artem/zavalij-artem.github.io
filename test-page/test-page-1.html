@@ -23,12 +23,7 @@
         }
     </style>
     <script>
-        window.onload = function () {
-            setTimeout(function () {
-                document.getElementsByTagName("body")[0].style.opacity = "1";
-            }, 500);
-        }
-/*function addFontsCss(){
+        function addFontsCss(){
             const link = document.createElement('link');
             link.setAttribute('rel', 'stylesheet');
             link.setAttribute('href', 'fonts.css');
@@ -38,12 +33,12 @@
                     document.querySelector('#preload').style.opacity = '0';
                 }, 1000);
             console.log(preload);
-        };*/
+        };
     </script>
 </head>
 
-<body id="startpage" style="opacity: 0; transition: opacity 1s ease;">
-    <section id="preload1">
+<body id="startpage" onload="addFontsCss()">
+    <section id="preload">
         <span>Loading....</span>
     </section>
     <section id="newheader">
