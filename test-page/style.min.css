@@ -1496,8 +1496,9 @@ svg path {
     --black: #333;
     --grey: #787878;
     --white: #fff;
-    --orange: #fec02f;
+    /* --orange: #fec02f; */
     --blue: #1d227c;
+    --orange: #ad1a00;
 }
 body {
     background: #fff;
