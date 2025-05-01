@@ -28,15 +28,10 @@
             link.setAttribute('rel', 'stylesheet');
             link.setAttribute('href', 'fonts.css');
             document.head.insertAdjacentElement('beforeend', link);
-            
-            const preload = document.querySelector('#preload');
-            
             setInterval(
                 function(){
-                    preload.style.opacity = '0';
+                    document.querySelector('#preload').style.opacity = '0';
                 }, 1000);
-            
-
             console.log(preload);
         };
     </script>
