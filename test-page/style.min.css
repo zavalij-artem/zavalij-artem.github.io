@@ -1514,10 +1514,8 @@ svg path {
 }
 body {
     background: #fff;
-    font-family: Montserrat, serif;
     color: var(--black);
-    font-size: 14px;
-    line-height: normal;
+    font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
     overflow-x: hidden;
     min-width: 320px;
     padding: 0 35px;
@@ -2872,7 +2870,6 @@ header .pull.open svg {
     background-size: 100% !important;
 }
 #faq .title {
-    font-family: Montserrat, serif;
     padding: 0 70px 0 35px;
     height: 60px;
     font-weight: 700;
@@ -2912,7 +2909,6 @@ header .pull.open svg {
     color: var(--orange);
 }
 #faq .answer {
-    font-family: Montserrat, serif;
     font-size: 14px;
     line-height: 20px;
     color: #787878;
@@ -5695,7 +5691,6 @@ footer .socials a:hover svg path {
     border-radius: 25px !important;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.02), 0 2px 4px rgba(0, 0, 0, 0.08);
     background: #fff !important;
-    font-family: Montserrat, serif !important;
 }
 .box__modal.box__modal__text {
     width: 1110px !important;
@@ -7446,7 +7441,6 @@ button,
 input,
 select,
 textarea {
-    font-family: Montserrat, serif;
     -webkit-appearance: none;
 }
 #page__account {

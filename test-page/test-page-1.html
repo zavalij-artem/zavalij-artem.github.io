@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Головна сторінка</title>
     <link rel="stylesheet" href="style.min.css">
-    <link rel="preload" as="style" href="fonts.css" fetchpriority="low" onload="this.rel='stylesheet'">
     <script src="https://test16.pridefix.com/assets/js/main.min.js" defer></script>
+    <script>
+        function addFontsCss(){
+            const link = document.createElement('link');
+            link.setAttribute('rel', 'stylesheet');
+            link.setAttribute('href', 'fonts.css');
+            document.head.insertAdjacentElement('beforeend', link);
+            console.log(link);
+        };
+    </script>
 </head>
 
-<body id="startpage">
+<body id="startpage" onload="addFontsCss()">
     <section id="newheader">
         <div class="top">
             <div class="container flex">
