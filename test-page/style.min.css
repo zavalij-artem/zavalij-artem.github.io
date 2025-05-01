@@ -1676,7 +1676,7 @@ header .drop:after {
     content: "";
     top: calc(50% - 5px);
     right: 0;
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
 }
 header .drop ul {
     display: none;
@@ -1746,7 +1746,7 @@ header .bottom nav ul li.has-children:after {
     position: absolute;
     top: calc(50% - 7px);
     right: 0;
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
 }
 header .bottom nav ul li a {
     display: block;
@@ -1760,7 +1760,7 @@ header .bottom nav ul li:hover > a {
     color: var(--orange);
 }
 header .bottom nav ul li.has-children:hover:after {
-    background: url(../images/arrdo.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrdo.svg) 50% 50% no-repeat;
     transform: rotate(180deg);
 }
 header .bottom nav ul li .sub-menu {
@@ -1928,7 +1928,7 @@ header.fixed-nav .actions a span {
     display: none;
 }
 header .pull.open {
-    background: url(../images/closeg.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/closeg.svg) 50% 50% no-repeat;
     background-size: 30px;
 }
 header .pull.open svg {
@@ -1945,7 +1945,7 @@ header .pull.open svg {
     box-sizing: border-box;
     overflow-y: auto;
     z-index: 500;
-    background: url(../images/bg_navigation.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/bg_navigation.png) 50% 50% no-repeat;
     background-size: cover;
 }
 #navigation .back {
@@ -1978,7 +1978,7 @@ header .pull.open svg {
     right: 0;
     width: 16px;
     height: 16px;
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
     content: "";
     background-size: 100%;
     transform: rotate(-90deg);
@@ -2100,7 +2100,7 @@ header .pull.open svg {
     content: "";
     top: calc(50% - 5px);
     right: 0;
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
 }
 #navigation .drop ul {
     display: none;
@@ -2264,7 +2264,7 @@ header .pull.open svg {
     content: "";
     top: calc(50% - 5px);
     right: 0;
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
 }
 #newheader .drop ul {
     display: none;
@@ -2468,16 +2468,16 @@ header .pull.open svg {
     position: absolute;
     top: calc(50% - 4px);
     right: 0;
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
 }
 #header__navigation .container nav ul li.has-children:hover:after {
-    background: url(../images/arrdo.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrdo.svg) 50% 50% no-repeat;
     transform: rotate(180deg);
 }
 #promo {
     padding: 50px 0;
     border-radius: 0 0 20px 20px;
-    background: url(../images/promobg.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/promobg.png) 50% 50% no-repeat;
     background-size: cover;
     margin: 0 34px;
 }
@@ -2529,7 +2529,7 @@ header .pull.open svg {
 }
 #promo .data li {
     padding: 0 0 0 32px;
-    background: url(../images/ls.svg) 0 0 no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/ls.svg) 0 0 no-repeat;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 15px;
@@ -2661,7 +2661,7 @@ header .pull.open svg {
     font-size: 14px;
     color: #787878;
     padding-left: 15px;
-    background: url(../images/address.svg) 0 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/address.svg) 0 50% no-repeat;
 }
 #reviews .item .user .info .rating {
     justify-content: flex-start;
@@ -2669,7 +2669,7 @@ header .pull.open svg {
 #reviews .item .user .info .rating span {
     width: 14px;
     height: 12px;
-    background: url(../images/star.svg) 0 0 no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/star.svg) 0 0 no-repeat;
 }
 #reviews .item .review {
     padding: 15px 0 0;
@@ -2790,7 +2790,7 @@ header .pull.open svg {
     border-color: #000;
 }
 #special {
-    background: url(../images/bgspecial.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/bgspecial.png) 50% 50% no-repeat;
     background-size: cover;
     padding: 40px 0;
     color: #fff;
@@ -2846,7 +2846,7 @@ header .pull.open svg {
 #faq,
 #list__services-small.list__services-small__faq {
     padding: 40px 0;
-    background: url(../images/bgfaq.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/bgfaq.png) 50% 50% no-repeat;
     border-radius: 25px;
     margin: 0 34px;
     background-size: cover;
@@ -2864,7 +2864,7 @@ header .pull.open svg {
 #list__services-small.list__services-small__faq:after {
     width: 80px;
     height: 80px;
-    background: url(../images/faqlogo.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/faqlogo.png) 50% 50% no-repeat;
     content: "";
     position: absolute;
     top: calc(50% - 100px);
@@ -2896,7 +2896,7 @@ header .pull.open svg {
     transition: all 0.2s;
     height: 12px;
     content: "";
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
     position: absolute;
     top: calc(50% - 6px);
     right: 20px;
@@ -2904,7 +2904,7 @@ header .pull.open svg {
 }
 #faq .title.ui-accordion-header-active:after {
     transform: rotate(180deg);
-    background: url(../images/arrdo.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrdo.svg) 50% 50% no-repeat;
     background-size: 100%;
 }
 #faq .title.ui-accordion-header-active {
@@ -2996,7 +2996,7 @@ header .pull.open svg {
     margin-bottom: 15px;
 }
 #breadcrumbs {
-    background: url(../images/bgbreadcrumbs.png) 50% 0 no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/bgbreadcrumbs.png) 50% 0 no-repeat;
     background-size: cover;
     border-radius: 25px;
     padding: 20px 0;
@@ -3006,7 +3006,7 @@ header .pull.open svg {
     position: relative;
 }
 #breadcrumbs .container:after {
-    background: url(../images/printtobr.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/printtobr.png) 50% 50% no-repeat;
     position: absolute;
     top: calc(50% - 30px);
     left: calc(50% + 310px);
@@ -3115,7 +3115,7 @@ header .pull.open svg {
 }
 #delivery .item li {
     padding: 0 0 0 30px;
-    background: url(../images/ls.svg) 0 2px no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/ls.svg) 0 2px no-repeat;
     margin-bottom: 2px;
 }
 #delivery .box {
@@ -3404,13 +3404,13 @@ header .pull.open svg {
     display: block;
 }
 .content ul li {
-    background: url(../images/ls.svg) 0 3px no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/ls.svg) 0 3px no-repeat;
     padding-left: 30px;
 }
 .content blockquote {
     display: block;
     margin: 30px 0;
-    background: url(../images/quote.svg) calc(100% - 30px) 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/quote.svg) calc(100% - 30px) 50% no-repeat;
     padding: 25px 160px 25px 45px;
     box-sizing: border-box;
     border-left: 9px solid var(--blue);
@@ -3936,7 +3936,7 @@ header .pull.open svg {
 }
 #actions__sales {
     padding: 40px 0;
-    background: url(../images/bgfaq.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/bgfaq.png) 50% 50% no-repeat;
     border-radius: 25px;
     background-size: cover;
     position: relative;
@@ -3945,7 +3945,7 @@ header .pull.open svg {
 #actions__sales:after {
     width: 80px;
     height: 80px;
-    background: url(../images/faqlogo.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/faqlogo.png) 50% 50% no-repeat;
     content: "";
     position: absolute;
     bottom: 80px;
@@ -4121,12 +4121,12 @@ header .pull.open svg {
     top: calc(50% - 6px);
     right: 20px;
     transition: all 0.2s;
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
     background-size: 100%;
     content: "";
 }
 #sidebar .box .row__title.open:after {
-    background: url(../images/arrdo.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrdo.svg) 50% 50% no-repeat;
     background-size: 100%;
     transform: rotate(180deg);
 }
@@ -4197,7 +4197,7 @@ header .pull.open svg {
 }
 #works__example {
     padding: 40px 0;
-    background: url(../images/bgfaq.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/bgfaq.png) 50% 50% no-repeat;
     border-radius: 25px;
     background-size: cover;
     position: relative;
@@ -4206,7 +4206,7 @@ header .pull.open svg {
 #works__example:after {
     width: 80px;
     height: 80px;
-    background: url(../images/faqlogo.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/faqlogo.png) 50% 50% no-repeat;
     content: "";
     position: absolute;
     top: calc(50% - 100px);
@@ -4515,7 +4515,7 @@ header .pull.open svg {
 }
 #page__market .service__info .pay__delivery .del__item li {
     padding: 0 0 0 24px;
-    background: url(../images/ls.svg) 0 2px no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/ls.svg) 0 2px no-repeat;
     font-size: 12px;
     line-height: 20px;
     color: var(--grey);
@@ -4550,7 +4550,7 @@ header .pull.open svg {
 #page__market .service__info .settings .rating span {
     width: 12px;
     height: 12px;
-    background: url(../images/star.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/star.svg) 50% 50% no-repeat;
 }
 #page__market .service__info .settings .box {
     margin-bottom: 20px;
@@ -5142,7 +5142,7 @@ header .pull.open svg {
     padding-left: 46px;
 }
 #page__checkout .form__checkout select {
-    background: url(../images/arrd.svg) 100% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 100% 50% no-repeat;
     background-size: 14px;
 }
 #page__checkout .form__checkout .form__items .flex .iti.iti--allow-dropdown,
@@ -5325,7 +5325,7 @@ header .pull.open svg {
     width: 12px;
     height: 12px;
     display: inline-block;
-    background: url(../images/info.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/info.svg) 50% 50% no-repeat;
     margin-left: 5px;
     position: relative;
     top: 2px;
@@ -5702,7 +5702,7 @@ footer .socials a:hover svg path {
     text-align: left;
 }
 .fancybox-close-small {
-    background: url(../images/close.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/close.svg) 50% 50% no-repeat;
     top: -67px;
     right: -67px;
     opacity: 1;
@@ -5718,7 +5718,7 @@ footer .socials a:hover svg path {
     display: none;
 }
 .box__modal.box__modal__text .fancybox-close-small {
-    background: url(../images/closeg.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/closeg.svg) 50% 50% no-repeat;
     top: 0;
     right: 0;
 }
@@ -5756,7 +5756,7 @@ footer .socials a:hover svg path {
     right: 0;
     width: 22px;
     height: 22px;
-    background: url(../images/view.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/view.svg) 50% 50% no-repeat;
 }
 .form__modal .label {
     font-size: 14px;
@@ -7095,14 +7095,14 @@ footer .socials a:hover svg path {
 .iti__flag {
     height: 15px;
     box-shadow: 0 0 1px 0 #888;
-    background-image: url(../images/flags.png);
+    background-image: url(https://test16.pridefix.com/assets/images/flags.png);
     background-repeat: no-repeat;
     background-color: #dbdbdb;
     background-position: 20px 0;
 }
 @media (min-resolution: 192dpi) {
     .iti__flag {
-        background-image: url(../images/flags@2x.png);
+        background-image: url(https://test16.pridefix.com/assets/images/flags@2x.png);
     }
 }
 .iti__flag.iti__np {
@@ -7300,7 +7300,7 @@ select {
     width: 100%;
     height: 40px;
     padding: 0 40px 0 18px;
-    background: url(../images/arrdo.svg) calc(100% - 16px) 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrdo.svg) calc(100% - 16px) 50% no-repeat;
     background-size: 10px;
     border-radius: 10px;
     font-size: 14px;
@@ -7344,7 +7344,7 @@ label.checkbox i:after {
     height: 20px;
     content: "";
     border-radius: 5px;
-    background: var(--orange) url(../images/check.svg) 50% 50% no-repeat;
+    background: var(--orange) url(https://test16.pridefix.com/assets/images/check.svg) 50% 50% no-repeat;
     box-sizing: border-box;
     opacity: 0;
     z-index: 2;
@@ -7393,7 +7393,7 @@ label.radio i:after {
     height: 20px;
     content: "";
     border-radius: 50%;
-    background: var(--orange) url(../images/check.svg) 50% 50% no-repeat;
+    background: var(--orange) url(https://test16.pridefix.com/assets/images/check.svg) 50% 50% no-repeat;
     box-sizing: border-box;
     opacity: 0;
     z-index: 2;
@@ -7565,7 +7565,7 @@ textarea {
     font-size: 14px;
 }
 .account__form .input__date {
-    background: url(../images/calendar.svg) 100% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/calendar.svg) 100% 50% no-repeat;
 }
 .account__settings .filters {
     justify-content: flex-start;
@@ -7902,14 +7902,14 @@ textarea {
     right: 30px;
     transition: all 0.2s;
     content: "";
-    background: url(../images/arrd.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
     background-size: 100%;
 }
 .list__orders .item.active {
     border-color: var(--orange);
 }
 .list__orders .item.active:after {
-    background: url(../images/arrdo.svg) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/arrdo.svg) 50% 50% no-repeat;
     background-size: 100%;
     transform: rotate(180deg);
 }
@@ -8358,7 +8358,7 @@ textarea {
         border: 1px solid #ebebeb;
         width: 100%;
         padding: 0 20px 0 15px;
-        background: url(../images/arrd.svg) calc(100% - 15px) 50% no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/arrd.svg) calc(100% - 15px) 50% no-repeat;
         background-size: 15px;
     }
     #page__account .account__navigation .curent__item svg {
@@ -9248,7 +9248,7 @@ textarea {
     }
     #promo {
         padding: 35px 0 25px;
-        background: url(../images/bgpromomobile.png) 50% 50% no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/bgpromomobile.png) 50% 50% no-repeat;
         background-size: cover;
     }
     #promo .text h1 {
@@ -10236,7 +10236,7 @@ textarea {
         transition: all 0.2s;
         height: 12px;
         content: "";
-        background: url(../images/arrd.svg) 50% 50% no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/arrd.svg) 50% 50% no-repeat;
         background-size: 100%;
     }
     footer .col__hd .title.open:after {
@@ -10383,7 +10383,7 @@ textarea {
     height: 176px;
     overflow: hidden;
     position: absolute;
-    background: url(../images/colorpicker_background.png);
+    background: url(https://test16.pridefix.com/assets/images/colorpicker_background.png);
     font-family: Arial, Helvetica, sans-serif;
     display: none;
 }
@@ -10403,7 +10403,7 @@ textarea {
 .colorpicker_color div {
     top: 0;
     left: 0;
-    background: url(../images/colorpicker_overlay.png);
+    background: url(https://test16.pridefix.com/assets/images/colorpicker_overlay.png);
 }
 .colorpicker_color div div {
     position: absolute;
@@ -10412,7 +10412,7 @@ textarea {
     width: 11px;
     height: 11px;
     overflow: hidden;
-    background: url(../images/colorpicker_select.gif);
+    background: url(https://test16.pridefix.com/assets/images/colorpicker_select.gif);
     margin: -5px 0 0 -5px;
 }
 .colorpicker_hue {
@@ -10428,7 +10428,7 @@ textarea {
     width: 35px;
     height: 9px;
     overflow: hidden;
-    background: url(../images/colorpicker_indic.gif) 0 0;
+    background: url(https://test16.pridefix.com/assets/images/colorpicker_indic.gif) 0 0;
     margin: -4px 0 0;
     left: 0;
 }
@@ -10464,7 +10464,7 @@ textarea {
     position: absolute;
     width: 72px;
     height: 22px;
-    background: url(../images/colorpicker_hex.png) top;
+    background: url(https://test16.pridefix.com/assets/images/colorpicker_hex.png) top;
     left: 212px;
     top: 142px;
 }
@@ -10487,32 +10487,32 @@ textarea {
     cursor: n-resize;
 }
 .colorpicker_rgb_r {
-    background-image: url(../images/colorpicker_rgb_r.png);
+    background-image: url(https://test16.pridefix.com/assets/images/colorpicker_rgb_r.png);
     top: 52px;
     left: 212px;
 }
 .colorpicker_rgb_g {
-    background-image: url(../images/colorpicker_rgb_g.png);
+    background-image: url(https://test16.pridefix.com/assets/images/colorpicker_rgb_g.png);
     top: 82px;
     left: 212px;
 }
 .colorpicker_rgb_b {
-    background-image: url(../images/colorpicker_rgb_b.png);
+    background-image: url(https://test16.pridefix.com/assets/images/colorpicker_rgb_b.png);
     top: 112px;
     left: 212px;
 }
 .colorpicker_hsb_h {
-    background-image: url(../images/colorpicker_hsb_h.png);
+    background-image: url(https://test16.pridefix.com/assets/images/colorpicker_hsb_h.png);
     top: 52px;
     left: 282px;
 }
 .colorpicker_hsb_s {
-    background-image: url(../images/colorpicker_hsb_s.png);
+    background-image: url(https://test16.pridefix.com/assets/images/colorpicker_hsb_s.png);
     top: 82px;
     left: 282px;
 }
 .colorpicker_hsb_b {
-    background-image: url(../images/colorpicker_hsb_b.png);
+    background-image: url(https://test16.pridefix.com/assets/images/colorpicker_hsb_b.png);
     top: 112px;
     left: 282px;
 }
@@ -10520,7 +10520,7 @@ textarea {
     position: absolute;
     width: 22px;
     height: 22px;
-    background: url(../images/colorpicker_submit.png) top;
+    background: url(https://test16.pridefix.com/assets/images/colorpicker_submit.png) top;
     left: 322px;
     top: 142px;
     overflow: hidden;
@@ -10559,7 +10559,7 @@ textarea {
     padding-left: 110px;
     margin-bottom: 10px;
     position: relative;
-    background: url(../images/lsa.svg) 72px 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/lsa.svg) 72px 50% no-repeat;
 }
 #page__about .icon {
     position: absolute;
@@ -10586,7 +10586,7 @@ textarea {
 #callback__section .inn {
     padding: 25px 0 55px;
     position: relative;
-    background: #1d227c url(../images/bg_cs.png) 50% 50% no-repeat;
+    background: #1d227c url(https://test16.pridefix.com/assets/images/bg_cs.png) 50% 50% no-repeat;
     background-size: cover;
     border-radius: 10px;
 }
@@ -10598,7 +10598,7 @@ textarea {
     left: calc(50% - 150px);
 }
 #about__advantages {
-    background: #f7f7f7 url(../images/bg_counts.png) 50% 50% no-repeat;
+    background: #f7f7f7 url(https://test16.pridefix.com/assets/images/bg_counts.png) 50% 50% no-repeat;
     background-size: cover;
     border-radius: 25px;
     padding: 40px 0;
@@ -10704,7 +10704,7 @@ textarea {
     color: var(--orange);
 }
 #works__advantages.bg {
-    background: #f7f7f7 url(../images/bg_counts.png) 50% 50% no-repeat;
+    background: #f7f7f7 url(https://test16.pridefix.com/assets/images/bg_counts.png) 50% 50% no-repeat;
     background-size: cover;
     border-radius: 25px;
     padding: 40px 0;
@@ -11090,7 +11090,7 @@ textarea {
 #works__example:after {
     width: 80px;
     height: 80px;
-    background: url(../images/faqlogo.png) 50% 50% no-repeat;
+    background: url(https://test16.pridefix.com/assets/images/faqlogo.png) 50% 50% no-repeat;
     content: "";
     position: absolute;
     top: calc(50% - 100px);
@@ -11238,7 +11238,7 @@ textarea {
         order: 0;
         width: 100%;
         padding: 12px 0;
-        background: url(../images/bgbreadcrumbs.png) 50% 0 no-repeat;
+        background: url(https://test16.pridefix.com/assets/images/bgbreadcrumbs.png) 50% 0 no-repeat;
         background-size: cover;
     }
     #page__main__title h1 {
