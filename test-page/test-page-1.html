@@ -6,7 +6,7 @@
     <title>Головна сторінка</title>
     <link rel="stylesheet" href="style.min.css">
     <script src="https://test16.pridefix.com/assets/js/main.min.js" defer></script>
-    <style>
+    <!--<style>
         #preload{
             position: fixed;
             top: 0;
@@ -21,27 +21,18 @@
             align-items: center;
             justify-content: center;
         }
-    </style>
+    </style> -->
     <script>
-        function addFontsCss(){
+        window.onload = function (){
             const link = document.createElement('link');
             link.setAttribute('rel', 'stylesheet');
             link.setAttribute('href', 'fonts.css');
-            
-            setInterval(
-                function(){
-                    document.head.insertAdjacentElement('beforeend', link);
-                    document.querySelector('#preload').style.opacity = '0';
-                }, 1000);
-            console.log(preload);
+            document.head.insertAdjacentElement('beforeend', link);
         };
     </script>
 </head>
 
-<body id="startpage" onload="addFontsCss()">
-    <section id="preload">
-        <span>Loading....</span>
-    </section>
+<body id="startpage">
     <section id="newheader">
         <div class="top">
             <div class="container flex">
