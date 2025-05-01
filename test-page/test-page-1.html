@@ -27,9 +27,10 @@
             const link = document.createElement('link');
             link.setAttribute('rel', 'stylesheet');
             link.setAttribute('href', 'fonts.css');
-            document.head.insertAdjacentElement('beforeend', link);
+            
             setInterval(
                 function(){
+                    document.head.insertAdjacentElement('beforeend', link);
                     document.querySelector('#preload').style.opacity = '0';
                 }, 1000);
             console.log(preload);
