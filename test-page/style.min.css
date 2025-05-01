@@ -2463,7 +2463,7 @@ header .pull.open svg {
 #promo {
     padding: 50px 0;
     border-radius: 0 0 20px 20px;
-    background: url(https://test16.pridefix.com/assets/images/promobg.png) 50% 50% no-repeat;
+    background: url(promobg.webp) 50% 50% no-repeat;
     background-size: cover;
     margin: 0 34px;
 }
@@ -2776,7 +2776,7 @@ header .pull.open svg {
     border-color: #000;
 }
 #special {
-    background: url(https://test16.pridefix.com/assets/images/bgspecial.png) 50% 50% no-repeat;
+    background: #1c2281 url(bgspecial.webp) 50% 50% no-repeat;
     background-size: cover;
     padding: 40px 0;
     color: #fff;
@@ -11484,7 +11484,7 @@ a.ui-button:active {
     }
     #promo {
         padding: 35px 0 25px;
-        background: url(https://test16.pridefix.com/assets/images/bgpromomobile.png) 50% 50% no-repeat;
+        background: url(bgpromomobile.webp) 50% 50% no-repeat;
         background-size: cover;
     }
     #promo .text h1 {
