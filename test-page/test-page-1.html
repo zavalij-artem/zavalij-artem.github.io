@@ -6,19 +6,41 @@
     <title>Головна сторінка</title>
     <link rel="stylesheet" href="style.min.css">
     <script src="https://test16.pridefix.com/assets/js/main.min.js" defer></script>
+    <style>
+        #preload{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: #000;
+            color: #fff;
+            transition: opacity .5s ease;
+        }
+    </style>
     <script>
         function addFontsCss(){
             const link = document.createElement('link');
             link.setAttribute('rel', 'stylesheet');
             link.setAttribute('href', 'fonts.css');
             document.head.insertAdjacentElement('beforeend', link);
-            console.log(link);
+            
+            const preload = document.querySelector('#preload');
+            preload.style.opacity = '0';
+            setInterval(
+                function(){
+                    
+                }, 500);
+            
+
+            console.log(preload);
         };
     </script>
 </head>
 
 <body id="startpage" onload="addFontsCss()">
-    <section style="position: absolute; top: 0; left: 0; z-index: 999; width: 100%; height: 100%; background: #000; color: #fff;">
+    <section id="preload">
         <span>Loading....</span>
     </section>
     <section id="newheader">
