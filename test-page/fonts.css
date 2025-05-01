@@ -8,13 +8,12 @@
     font-style: normal;
     font-display: swap;
 }
-
-/* @font-face {
+@font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Bold.woff2') format('woff2'),
-        url('Montserrat-Bold.woff') format('woff'),
-        url('Montserrat-Bold.ttf') format('truetype'),
-        url('Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff'),
+        url('fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -22,10 +21,10 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-BoldItalic.woff2') format('woff2'),
-        url('Montserrat-BoldItalic.woff') format('woff'),
-        url('Montserrat-BoldItalic.ttf') format('truetype'),
-        url('Montserrat-BoldItalic.svg#Montserrat-BoldItalic') format('svg');
+    src: url('fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+        url('fonts/Montserrat-BoldItalic.woff') format('woff'),
+        url('fonts/Montserrat-BoldItalic.ttf') format('truetype'),
+        url('fonts/Montserrat-BoldItalic.svg#Montserrat-BoldItalic') format('svg');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -33,10 +32,10 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-ExtraBold.woff2') format('woff2'),
-        url('Montserrat-ExtraBold.woff') format('woff'),
-        url('Montserrat-ExtraBold.ttf') format('truetype'),
-        url('Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
+    src: url('fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('fonts/Montserrat-ExtraBold.woff') format('woff'),
+        url('fonts/Montserrat-ExtraBold.ttf') format('truetype'),
+        url('fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -44,10 +43,10 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Italic.woff2') format('woff2'),
-        url('Montserrat-Italic.woff') format('woff'),
-        url('Montserrat-Italic.ttf') format('truetype'),
-        url('Montserrat-Italic.svg#Montserrat-Italic') format('svg');
+    src: url('fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('fonts/Montserrat-Italic.woff') format('woff'),
+        url('fonts/Montserrat-Italic.ttf') format('truetype'),
+        url('fonts/Montserrat-Italic.svg#Montserrat-Italic') format('svg');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -55,10 +54,10 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Light.woff2') format('woff2'),
-        url('Montserrat-Light.woff') format('woff'),
-        url('Montserrat-Light.ttf') format('truetype'),
-        url('Montserrat-Light.svg#Montserrat-Light') format('svg');
+    src: url('fonts/Montserrat-Light.woff2') format('woff2'),
+        url('fonts/Montserrat-Light.woff') format('woff'),
+        url('fonts/Montserrat-Light.ttf') format('truetype'),
+        url('fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -66,10 +65,10 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-LightItalic.woff2') format('woff2'),
-        url('Montserrat-LightItalic.woff') format('woff'),
-        url('Montserrat-LightItalic.ttf') format('truetype'),
-        url('Montserrat-LightItalic.svg#Montserrat-LightItalic') format('svg');
+    src: url('fonts/Montserrat-LightItalic.woff2') format('woff2'),
+        url('fonts/Montserrat-LightItalic.woff') format('woff'),
+        url('fonts/Montserrat-LightItalic.ttf') format('truetype'),
+        url('fonts/Montserrat-LightItalic.svg#Montserrat-LightItalic') format('svg');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -77,10 +76,10 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Medium.woff2') format('woff2'),
-        url('Montserrat-Medium.woff') format('woff'),
-        url('Montserrat-Medium.ttf') format('truetype'),
-        url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    src: url('fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('fonts/Montserrat-Medium.woff') format('woff'),
+        url('fonts/Montserrat-Medium.ttf') format('truetype'),
+        url('fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -88,10 +87,10 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-SemiBold.woff2') format('woff2'),
-        url('Montserrat-SemiBold.woff') format('woff'),
-        url('Montserrat-SemiBold.ttf') format('truetype'),
-        url('Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    src: url('fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('fonts/Montserrat-SemiBold.ttf') format('truetype'),
+        url('fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -99,15 +98,14 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-SemiBoldItalic.woff2') format('woff2'),
-        url('Montserrat-SemiBoldItalic.woff') format('woff'),
-        url('Montserrat-SemiBoldItalic.ttf') format('truetype'),
-        url('Montserrat-SemiBoldItalic.svg#Montserrat-SemiBoldItalic') format('svg');
+    src: url('fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Montserrat-SemiBoldItalic.woff') format('woff'),
+        url('fonts/Montserrat-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/Montserrat-SemiBoldItalic.svg#Montserrat-SemiBoldItalic') format('svg');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
-} */
-
+}
 body{
     font-family: "Montserrat", Arial, Helvetica Neue, Helvetica, sans-serif;
 }
